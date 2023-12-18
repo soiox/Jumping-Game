@@ -34,7 +34,7 @@ public class playerMove : MonoBehaviour
         transform.position = (vec2);
         if(transform.position.y < -7.5f)
         {
-            transform.position = new Vector3(0f,5f,0f);
+            transform.position = new Vector3(-10f,0f,0f);
             GetComponent<Rigidbody2D>().velocity = Vector3.zero;
         }
     }
